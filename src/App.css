@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.leftActionBox {
+  display: flex;
+  position: absolute;
+  left: 20px;
+  top: 20px;   
+}
+
+.rightActionBox {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.mainContent {
+  display: flex;
 }

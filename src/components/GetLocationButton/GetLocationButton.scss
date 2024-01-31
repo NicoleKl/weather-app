@@ -1,0 +1,19 @@
+.getLocationBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 40px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.getLocationBtn:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+
+    svg {
+        color: white;
+    }
+}

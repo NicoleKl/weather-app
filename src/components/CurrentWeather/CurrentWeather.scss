@@ -1,0 +1,40 @@
+.currentWeather {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px 10px 20px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+    &-leftContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &-rightContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: -30px;
+    }
+
+    &__header {
+        text-align: left;
+    }
+
+    &__city {
+        font-size: 35px;
+        text-align: left;
+    }
+
+    &__details {
+        margin-top: -30px;
+        font-size: 22px;
+    }
+
+    &__temp {
+        font-size: 40px;
+        text-align: left;
+    }
+}
