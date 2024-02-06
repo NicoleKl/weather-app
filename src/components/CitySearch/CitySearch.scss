@@ -1,7 +1,7 @@
 .citySearch-container {
     display: flex;
     align-items: center;
-    height: 35px; 
+    height: 40px; 
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 10px;
     overflow: hidden;
@@ -13,4 +13,42 @@
     justify-content: center;
     height: 40px;
     width: 40px;
+
+    svg {
+        color: white;
+    }
+}
+
+.citySearch {
+    width: 250px;
+
+    &.MuiAutocomplete-root .MuiAutocomplete-inputRoot {
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.cityInput {
+    & .MuiOutlinedInput-root {
+        border-radius: 30px;
+        background-color: transparent;
+        color: white;
+
+        & fieldset {
+          border-color: transparent;
+        }
+
+        &:hover fieldset {
+            border-color: transparent;
+        }
+
+        &.Mui-focused fieldset {
+            border-color: transparent;
+        }
+    }
+
+    & .MuiFormLabel-root {
+        color: white;
+      }
 }

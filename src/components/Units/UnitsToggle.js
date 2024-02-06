@@ -7,7 +7,6 @@ const UnitsToggle = ({ defaultUnits, handleChangeUnits }) => {
     const [units, setUnits] = useState(defaultUnits);
 
     const handleChange = (e, newUnits) => {
-      console.log(units, newUnits)
       if(newUnits !== null) {
         setUnits(newUnits);
         handleChangeUnits(newUnits);

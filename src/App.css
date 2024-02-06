@@ -41,16 +41,17 @@
 .leftActionBox {
   display: flex;
   position: absolute;
-  left: 20px;
-  top: 20px;   
+  left: 40px;
+  top: 30px;   
 }
 
 .rightActionBox {
   position: absolute;
-  right: 20px;
-  top: 20px;
+  right: 40px;
+  top: 30px;
 }
 
 .mainContent {
   display: flex;
+  margin-top: 100px;
 }

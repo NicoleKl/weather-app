@@ -1,9 +1,9 @@
 .unitsToggle.MuiToggleButtonGroup-root {
-    height: 35px; 
+    overflow: hidden;
+    height: 40px; 
     background-color: rgba(255, 255, 255, 0.3);
     color: white;
     border-radius: 10px;
-    overflow: hidden;
     border-color: transparent;
 }
 
@@ -11,21 +11,21 @@
     border-color: transparent;
     color: white;
     background-color: rgba(255, 255, 255, 0.4);
-}
 
-.toggleBtn.MuiToggleButton-root.Mui-selected:hover{ 
-    background-color: rgba(255, 255, 255, 0.5);
-    color: rgba(255, 255, 255, 0.8);
+    &:hover{ 
+        background-color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.8);
+    }
 }
 
 .toggleBtn.MuiToggleButton-root {
     border-color: transparent;
-
+    font-size: 18px;
     background-color: rgba(255, 255, 255, 0.05);
     color: rgba(255, 255, 255, 0.8);
-}
 
-.toggleBtn.MuiToggleButton-root:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    color: rgba(255, 255, 255, 0.8);
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: rgba(255, 255, 255, 0.8);
+    }
 }

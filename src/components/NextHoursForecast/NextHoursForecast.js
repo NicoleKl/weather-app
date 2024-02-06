@@ -9,10 +9,13 @@ const NextHoursForecast = ({data}) => {
            {data.map((nextHour, index) => {
             return (
                 <div key={index} className='hourlyWeather'>
-                    <p>{nextHour.hour}</p>
+                    <div>
+                    <p className='hourlyWeather__hour'>{nextHour.hour}</p>
                     <WeatherIcon weather={nextHour.weatherCond}/>
-                    <p>{nextHour.desc}</p>
-                    <p>{nextHour.temp}°</p>
+                    {/* <p>{nextHour.desc}</p> */}
+                        </div>
+                   
+                    <p className='hourlyWeather__temp'>{nextHour.temp}°</p>
                 </div>
             )
            })}
